@@ -33,4 +33,4 @@ function Copy-Configs {
 Copy-Configs
 
 # Log status
-Write-Host -ForegroundColor Yellow "(2/2) VS Code Configurado"
+Write-Host -ForegroundColor Yellow "(2/2) Configurações do VS Code copiadas"
