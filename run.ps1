@@ -58,6 +58,7 @@ $total = $selecionados.Length
 function Invoke-Scripts {
     Executa cada script da lista
     foreach ($selecionado in $selecionados) {
+        Set-Location "$env:USERPROFILE\Desktop\inatel-setup"
         $contador++
         Invoke-Script -ScriptPath $selecionado
         Pause
