@@ -5,7 +5,7 @@ Powershell Script desenvolvido para configurar quase automaticamente o que for n
 ## Comando de uma linha
 Abra o PowerShell e execute o comando abaixo:
 ```
-Set-Location $env:USERPROFILE\Desktop git clone https://github.com/YamSol/inatel-setup.git Set-Location inatel-setup powershell.exe -ExecutionPolicy Bypass -File ".\run.ps1"
+Set-Location $env:USERPROFILE\Desktop; git clone https://github.com/YamSol/inatel-setup.git; Set-Location inatel-setup; powershell.exe -ExecutionPolicy Bypass -File ".\run.ps1"
 ```
 ## Passo a Passo
 Para executar o script, siga os seguintes passos:
