@@ -11,7 +11,7 @@ function Set-DefaultBrowser {
     Start-Sleep -Seconds 2  # Atraso de 1 segundo
 
     # Ir para Navegador padrao
-    [System.Windows.Forms.SendKeys]::SendWait("{TAB}{TAB}{TAB}{TAB}{TAB}{ENTER}")
+    [System.Windows.Forms.SendKeys]::SendWait("{TAB 5}{ENTER}")
     Start-Sleep -Milliseconds 500
 
     # Selecionar Navegador padrao
