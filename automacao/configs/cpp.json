@@ -1,0 +1,22 @@
+{
+	"Base Structure": {
+		"prefix": "base+",
+		"body": [
+			"#include <${1:bits/stdc++.h}>",
+			"using namespace std;",
+			"",
+			"int main(){",
+			"\t${2:/* code */}",
+			"\t${0}",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "Creates the base structure of a c++ program using <bits/stdc++.h> lib"
+	},
+
+	"Complete cout":{
+		"prefix": "ccout",
+		"body": "cout<<\"$0\"<<endl;",
+		"description": "Print a simple message",
+	}
+}
