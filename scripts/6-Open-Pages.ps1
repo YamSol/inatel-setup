@@ -2,12 +2,11 @@
 function Open-Pages {
     if (Test-Path "~/Desktop/code-troopers") {
         Start-Process "chrome.exe" -ArgumentList "https://docs.google.com/spreadsheets/d/1k-TV2paltaIIn9QwuFvgbYSzRWcfIfH47WaXlr3lrCU/edit --guest" 
-        Start-Sleep 2
     } 
 
     if (Test-Path "~/Desktop/algoritmos-1") {
         Start-Process "chrome.exe" -ArgumentList "https://graduacao.inatel.br/login/index.php --guest"
-        Start-Sleep 2
+        Start-Sleep 3
 
         # Importando Windows.Forms
         Add-Type -AssemblyName 'System.Windows.Forms'
