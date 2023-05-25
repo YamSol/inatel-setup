@@ -56,9 +56,6 @@ $selecionados = Get-SelectedScripts
 $contador = 0
 $total = $selecionados.Length
 function Invoke-Scripts {
-
-    
-    
     Executa cada script da lista
     foreach ($selecionado in $selecionados) {
         $contador++
